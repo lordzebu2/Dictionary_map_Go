@@ -40,6 +40,7 @@ func main() {
 	// word, _ := dictionary.Search(baseWord)
 	// fmt.Println(word)
 
+	// ===== Delete =====
 	baseword := "hello"
 	dictionary.Add(baseword, "First")
 	dictionary.Search(baseword)
